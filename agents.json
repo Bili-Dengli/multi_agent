@@ -1,0 +1,26 @@
+[
+  {
+    "id": "director",
+    "name": "director",
+    "workspace": "~/.openclaw/workspace-director",
+    "subagents": {
+      "allowAgents": ["manager"]
+    }
+  },
+  {
+    "id": "manager",
+    "name": "manager",
+    "workspace": "~/.openclaw/workspace-manager",
+    "subagents": {
+      "allowAgents": ["worker"]
+    }
+  },
+  {
+    "id": "worker",
+    "name": "worker",
+    "workspace": "~/.openclaw/workspace-worker",
+    "subagents": {
+      "allowAgents": []
+    }
+  }
+]
